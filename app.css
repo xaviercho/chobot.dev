@@ -1,0 +1,103 @@
+body{
+	background: #2E2D2B;
+	font-family: "Nunito", sans-serif;	
+}
+
+.blurb h2 {
+   font-weight: 100;
+   font-size: 2.5rem;
+   font-family: "Nunito", sans-serif;
+}
+
+.blurb p {
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+	font-family: "Nunito", sans-serif;
+}
+
+.content {
+    margin-top: 44px;
+    margin-bottom: 50px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 350;
+	background: #2F444D;
+}
+
+#mainNavbar .nav-link {
+    color: #4E8399;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #DDD8CA;
+}
+
+#mainNavbar .navbar-brand {
+    color: #DDD8CA;
+    font-size: 1.5rem;
+}
+
+#headingGroup h1 {
+	color: #DDD8CA;
+    font-weight: 100;
+    font-size: 3rem;
+}
+ .navbar.scrolled {
+    background: #2F444D;
+    transition: background 500ms;
+}
+
+#top{
+	color: #DDD8CA;
+	padding-top: 45px;
+	margin-top: -45px;
+}
+
+#aboutme{
+	color: #DDD8CA;
+	padding-top: 45px;
+	margin-top: -45px;
+}
+
+#skillsme{
+	color: #DDD8CA;
+	padding-top: 45px;
+	margin-top: -45px;
+}
+#skill_table{
+	 font-weight: 100;
+	 padding-top: 0px;
+	 margin-top: 0px;
+}
+
+#projectsme{
+	color: #DDD8CA;
+	padding-top: 50px;
+	margin-top: -50px;
+}
+
+#testme{
+	color: #DDD8CA;
+	padding-top: 45px;
+	margin-top: -45px;
+}
+
+#contactme{
+	color: #DDD8CA;
+	padding-top: 45px;
+	margin-top: -45px;
+	padding-bottom: 15px;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
